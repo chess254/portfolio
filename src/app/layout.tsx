@@ -11,7 +11,7 @@ import "@/css/card.scss";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Siro Daves | Software Eng, Mentor",
+  title: "Siro Jack | Software Engineer, Mentor",
   description:
     "Software Engineer and Tech Writer. Best at Mobile app development with Flutter, Full Stack development with Mern. Other areas of expertise are Android, .Net and Qt.",
 };

@@ -25,7 +25,7 @@ export interface Bio {
 }
 
 export const bio: Bio = {
-  name: "Dev Siro",
+  name: "Siro Jack",
   profile: '/profile.jpg',
   designation1: "Software Engineer",
   designation2: "#Flutter",
@@ -38,12 +38,12 @@ export const bio: Bio = {
   phone: '+254 795 145 999',
   address: 'Nairobi, Kenya',
   github: 'https://github.com/sirodevs',
-  linkedIn: 'https://linkedin.com/in/sirodevs/',
+  linkedIn: 'https://linkedin.com/in/siro-devs/',
   youtube: 'https://youtube.com/@sirodevs',
   twitter: 'https://twitter.com/sirodevs',
-  medium: "https://blog.siro.co.ke",
-  hashnode: "https://dev.siro.co.ke",
-  blogger: "https://sirodevs.blogspot.com/",
+  medium: "https://siroblog.medium.com",
+  hashnode: "https://siro.hashnode.dev",
+  blogger: "https://sirodevs.blogspot.com",
   strava: "https://www.strava.com/athletes/39986133",
   mentor: "https://bit.ly/SiroMentor",
   handle: "sirodevs",
