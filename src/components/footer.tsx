@@ -14,7 +14,7 @@ const Footer: React.FC = () => {
         </div>
         <div className="flex flex-col md:flex-row items-center justify-between">
           <p className="text-sm">
-            © {currentYear} Siro Daves
+            © {currentYear} Siro Devs
           </p>
           <div className="flex items-center gap-5">
             <Link
