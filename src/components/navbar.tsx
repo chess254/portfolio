@@ -8,28 +8,28 @@ const Navbar: React.FC = () => {
         <div className="flex flex-shrink-0 items-center">
           <Link
             href="/"
-            className="text-[#ea580c] text-3xl font-bold">
-            SIRO JACK
+            className="text-[#ea580c] text-4xl font-bold">
+            CALEB ACHESA
           </Link>
         </div>
 
         <ul className="mt-4 flex h-screen max-h-0 w-full flex-col items-start text-sm opacity-0 md:mt-0 md:h-auto md:max-h-screen md:w-auto md:flex-row md:space-x-1 md:border-0 md:opacity-100" id="navbar-default">
           <li>
             <Link className="block px-4 py-2 no-underline outline-none hover:no-underline" href="/#about-me">
-              <div className="text-sm text-white transition-colors duration-300 hover:text-orange-600">ABOUT ME</div>
+              <div className="text-sm text-white transition-colors duration-300 hover:text-orange-600">About</div>
             </Link>
           </li>
           <li>
-            <Link className="block px-4 py-2 no-underline outline-none hover:no-underline" href="/#experience"><div className="text-sm text-white transition-colors duration-300 hover:text-orange-600">MY EXPERIENCE</div></Link>
+            <Link className="block px-4 py-2 no-underline outline-none hover:no-underline" href="/#experience"><div className="text-sm text-white transition-colors duration-300 hover:text-orange-600">Experience</div></Link>
           </li>
           <li>
-            <Link className="block px-4 py-2 no-underline outline-none hover:no-underline" href="/#projects"><div className="text-sm text-white transition-colors duration-300 hover:text-orange-600">MY PROJECTS</div></Link>
+            <Link className="block px-4 py-2 no-underline outline-none hover:no-underline" href="/#projects"><div className="text-sm text-white transition-colors duration-300 hover:text-orange-600">Projects</div></Link>
           </li>
           <li>
-            <Link className="block px-4 py-2 no-underline outline-none hover:no-underline" href="/#blog"><div className="text-sm text-white transition-colors duration-300 hover:text-orange-600">MY TECH BLOG</div></Link>
+            {/* <Link className="block px-4 py-2 no-underline outline-none hover:no-underline" href="/#blog"><div className="text-sm text-white transition-colors duration-300 hover:text-orange-600">MY TECH BLOG</div></Link> */}
           </li>
           <li>
-            <Link className="block px-4 py-2 no-underline outline-none hover:no-underline" href="/#contact-me"><div className="text-sm text-white transition-colors duration-300 hover:text-orange-600">CONTACT ME</div></Link>
+            <Link className="block px-4 py-2 no-underline outline-none hover:no-underline" href="/#contact-me"><div className="text-sm text-white transition-colors duration-300 hover:text-orange-600">Contact me</div></Link>
           </li>
         </ul>
       </div>

@@ -38,8 +38,20 @@ export default function Experience() {
           <span className="w-24 h-[2px] bg-[#c2410c]"></span>
         </div>
       </div>
+      <div className="sticky top-10 z-10 mb-100">
+        <div className="w-[80px] h-[80px] bg-red-100 rounded-full absolute -top-3 left-0 translate-x-1/2 filter blur-3xl opacity-30"></div>
+        <div className="flex items-center justify-start relative">
+          <span className="bg-[#c2410c] absolute left-0 w-fit text-white px-5 py-3 text-xl rounded-md">
+            EXPERIENCE
+          </span>
+          <span className="w-full h-[2px] bg-[#c2410c]"></span>
+        </div>
+      </div>
+
+      {/* <div className="fixed top-0 left-0 right-0 h-[150px] z-[9] pointer-events-none fade-overlay"></div> */}
 
       <div className="py-8">
+        <div className="h-full">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6">
           {experiences.map((experience: Experience) => (
             <GlowCard
@@ -91,6 +103,7 @@ export default function Experience() {
             </GlowCard>
           ))}
         </div>
+      </div>
       </div>
     </div>
   );

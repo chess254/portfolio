@@ -50,13 +50,13 @@ const ProjectCard = ({
         <div className="overflow-hidden border-t-[2px] border-white px-4 lg:px-8 py-4 lg:py-8">
           <div className={styles.body}>
             <div className={styles.description}>
-              <p>
+              {/* <p> */}
                 <ul className="list-disc">
                       {project.descriptions.map((descr, i) => (
                         <li key={`d_${i}`} className="text-sm mb-2">{descr}</li>
                       ))}
                     </ul>
-              </p>
+              {/* </p> */}
 
               <div className={styles.tools}> Skills/Tech Used: {" "}
                 {project.tools.map((tool, i) => (

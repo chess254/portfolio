@@ -25,20 +25,20 @@ export interface Bio {
 }
 
 export const bio: Bio = {
-  name: "Siro Jack",
+  name: "Caleb Achesa",
   profile: '/profile.jpg',
   designation1: "Software Engineer",
   designation2: "#Flutter",
   designation3: "#Fitness",
-  designation4: "Tech Writer",
+  designation4: "Full Stack Developer",
   designation5: "Mentor",
   description1: "I am a self-taught software engineer with a proven track record of leading cross-functional teams, mentoring junior developers, and driving end-to-end delivery of scalable solutions. Skilled in Flutter (Dart), Android (Kotlin), iOS (Swift), .Net (C#), React (TypeScript), databases, and REST APIs, I combine strong technical expertise with excellent communication and collaboration skills.",
   description2: "I actively share knowledge through mentoring, blogging, and tech talks, fostering teamwork and innovation within the developer community.",
-  email: 'sirodevske @ gmail . com',
-  phone: '+254 795 145 999',
+  email: 'lae2006a @ gmail . com',
+  phone: '+254 721 542 746',
   address: 'Nairobi, Kenya',
-  github: 'https://github.com/sirodevs',
-  linkedIn: 'https://linkedin.com/in/siro-devs/',
+  github: 'https://github.com/chess254',
+  linkedIn: 'https://www.linkedin.com/in/caleb-a-402480a/',
   youtube: 'https://youtube.com/@sirodevs',
   twitter: 'https://twitter.com/sirodevs',
   medium: "https://siroblog.medium.com",
@@ -46,6 +46,6 @@ export const bio: Bio = {
   blogger: "https://sirodevs.blogspot.com",
   strava: "https://www.strava.com/athletes/39986133",
   mentor: "https://bit.ly/SiroMentor",
-  handle: "sirodevs",
-  resume: "https://drive.google.com/file/d/1CAJFsbmtQ2zg1CrUAjsjQYa4SpFXMtIj/view?usp=sharing"
+  handle: "chess254",
+  resume: "https://drive.google.com/file/d/1DAKek0mmyNsT2-SIWnPxmKnDf9I_dyfF/view?usp=drive_link"
 };
