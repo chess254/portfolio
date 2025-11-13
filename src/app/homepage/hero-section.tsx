@@ -26,16 +26,16 @@ const HeroSection = () => {
   <span className="block">
     Hi there, welcome here. I am{" "}
     <Link href={bio.linkedIn} target="_blank" className="hover:underline hover:text-[#f97316] transition-colors">
-      <span className="text-[#22c55e]">Siro</span>
+      <span className="text-[#22c55e]">Caleb</span>
     </Link>, a{" "}
     <Link href={bio.github} target="_blank" className="hover:underline hover:text-[#fb923c] transition-colors">
       <span className="text-[#f97316]">{bio.designation1}</span>
     </Link>
     , a{" "}
-    <Link href={bio.hashnode} target="_blank" className="hover:underline hover:text-[#4ade80] transition-colors">
+    <Link href={"#"} target="_blank" className="hover:underline hover:text-[#4ade80] transition-colors">
       <span className="text-[#f97316]">{bio.designation4}</span>
     </Link> and a{" "}
-    <Link href={bio.mentor} target="_blank" className="hover:underline hover:text-[#4ade80] transition-colors">
+    <Link href={"#"} target="_blank" className="hover:underline hover:text-[#4ade80] transition-colors">
       <span className="text-[#f97316]">{bio.designation5}</span>
     </Link>!
   </span>
